@@ -1,0 +1,119 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Modern Color Variables */
+:root {
+    --primary-gradient: linear-gradient(135deg, #7C3AED, #2563EB);
+    --secondary-gradient: linear-gradient(45deg, #4F46E5, #7C3AED);
+    --accent-gradient: linear-gradient(135deg, #EC4899, #8B5CF6);
+    --glass-effect: rgba(255, 255, 255, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --text-primary: #1F2937;
+    --text-secondary: #4B5563;
+    --surface-light: rgba(255, 255, 255, 0.95);
+    --surface-glass: rgba(255, 255, 255, 0.7);
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Modern Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Serif Text', sans-serif;
+    background: linear-gradient(135deg, #7C3AED, #4F46E5);
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color: var(--text-primary);
+}
+
+/* Animated Background Patterns */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--glass-effect);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 60% 100%, 0 85%);
+    z-index: -1;
+    animation: patternShift 20s ease-in-out infinite alternate;
+}
+
+/* Remove the decorative semi-circle */
+body::after {
+    content: none;
+}
+
+@keyframes patternShift {
+    0% { transform: translateY(0) scale(1) rotate(0deg); }
+    100% { transform: translateY(20px) scale(1.05) rotate(1deg); }
+}
+
+/* Modern Container */
+.container {
+    padding: 2.5rem;
+    background: var(--surface-light);
+    border-radius: 24px;
+    margin: 3rem auto;
+    max-width: 1200px;
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.1),
+        0 1px 8px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: translateY(0);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container:hover {
+    transform: translateY(-10px);
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.15),
+        0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Modern Card Design */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+    transition: all 0.4s cubic-bezier( 0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin: 1rem;
+    }
+
+    .card {
+        margin: 1rem 0;
+    }
+}
