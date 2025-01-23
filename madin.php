@@ -32,7 +32,7 @@
 
     <div class="container mt-5">
         <h1 class="text-center"><b>Program Madin</b></h1>
-        <p class="text-center">Madrasah Diniyah Mabadi Quranil Aziz adalah program sore untuk anak usia SD-SMP yang fokus pada Tahfidz 30 Juz (7 level), Tahsin (lancar baca Al-Quran dalam 1 tahun), pembentukan adab dan akhlak, Mabit (Malam Bina Iman & Taqwa), Camp Tahfidz & Outbound, Market Day, serta pelatihan silat untuk membangun fisik dan mental yang kuat. Dilengkapi materi fiqih, doa harian, hadits dan praktek ibadah, program ini bertujuan untuk mencetak generasi Qurani yang berkarakter unggul.</p>
+        <p class="text-left">Madrasah Diniyah Mabadi Quranil Aziz adalah program sore untuk anak usia SD-SMP yang fokus pada Tahfidz 30 Juz (7 level), Tahsin (lancar baca Al-Quran dalam 1 tahun), pembentukan adab dan akhlak, Mabit (Malam Bina Iman & Taqwa), Camp Tahfidz & Outbound, Market Day, serta pelatihan silat untuk membangun fisik dan mental yang kuat. Dilengkapi materi fiqih, doa harian, hadits dan praktek ibadah, program ini bertujuan untuk mencetak generasi Qurani yang berkarakter unggul.</p>
 
         
         <p>Program unggulan Madin MQA meliputi:</p>

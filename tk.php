@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Program TK - RUTABA</title>
+    <link rel="icon" type="assets/yayasan.png" href="assets/yayasan.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .activity-card {
@@ -32,7 +33,7 @@
 
     <div class="container mt-5">
         <h1 class="text-center"><b>Program TK</b></h1>
-        <p class="text-center">TK Tahfidz MQA adalah program untuk anak usia 4-6 tahun yang bertujuan membentuk generasi Qurani. Anak-anak dibimbing menghafal Juz 29-30, lancar membaca Al-Quran sebelum masuk SD, serta dibekali nilai-nilai karakter berbasis hadis seperti akhlakul karimah dan kemandirian.</p>
+        <p class="text-left">TK Tahfidz MQA adalah program untuk anak usia 4-6 tahun yang bertujuan membentuk generasi Qurani. Anak-anak dibimbing menghafal Juz 29-30, lancar membaca Al-Quran sebelum masuk SD, serta dibekali nilai-nilai karakter berbasis hadis seperti akhlakul karimah dan kemandirian.</p>
 
         
         <h2>Program unggulan TK meliputi:</h2>

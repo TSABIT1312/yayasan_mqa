@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenis Kelas - RUTABA</title>
+    <link rel="icon" type="assets/yayasan.png" href="assets/yayasan.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .info-box {
@@ -39,7 +40,7 @@
                                     <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#kelasMadinModal">
                                         Detail Kelas
                                     </button>
-                                    <a href="form_pendaftaran.html" class="btn btn-success btn-sm ms-2">
+                                    <a href="form_pendaftaran.php" class="btn btn-success btn-sm ms-2">
                                         Daftar Sekarang
                                     </a>
                                 </div>
@@ -53,7 +54,7 @@
                                     <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#kelasTKModal">
                                         Detail Kelas
                                     </button>
-                                    <a href="form_pendaftaran.html" class="btn btn-success btn-sm ms-2">
+                                    <a href="form_pendaftaran.php" class="btn btn-success btn-sm ms-2">
                                         Daftar Sekarang
                                     </a>
                                 </div>
@@ -67,7 +68,7 @@
                                     <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#kelasBalitaModal">
                                         Detail Kelas
                                     </button>
-                                    <a href="form_pendaftaran.html" class="btn btn-success btn-sm ms-2">
+                                    <a href="form_pendaftaran.php" class="btn btn-success btn-sm ms-2">
                                         Daftar Sekarang
                                     </a>
                                 </div>

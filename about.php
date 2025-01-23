@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang - RUTABA</title>
+    <link rel="icon" type="assets/yayasan.png" href="assets/yayasan.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap CSS -->
     <style>
         /* Gaya untuk foto lingkaran */
@@ -125,7 +126,7 @@
          </p>
 
         <h2><b>TUJUAN YAYASAN</b></h2>
-        <p>Tujuan dari didirikannya Yayasan MQA adalah untuk andil dalam pendidikan Al Quran sejak usia dini yang dimulai dari usia 3 tahun sampai 5 tahun. Kemudian dilanjut sampai dengan usia 12 tahun untuk masuk ke Madrasah Diniyah. Sehingga program yang berlangsung selama 9 tahun</p>
+        <p>Tujuan dari didirikannya Yayasan MQA adalah untuk andil dalam pendidikan Al Quran sejak usia dini yang dimulai dari usia 3 tahun sampai 5 tahun,kemudian dilanjut sampai dengan usia 12 tahun untuk masuk ke Madrasah Diniyah,sehingga program yang berlangsung selama 9 tahun</p>
         
         <h2><b>FASILITAS</b></h2>
         <p>Fasilitas yang diberikan untuk para santri Madrasah Diniyah, TK Tahfidz, maupun Balita Tahfidz ialah ruang kelas yang nyaman, aula representatif, alat dan arena bermain yang memadahi, perpustakaan.</p>
